@@ -35,6 +35,7 @@ Week 4
 - This program has input, loop and output. 
 - This task was the easiest one on my opinion, as the loop was able to do the math. 
 - If the input is divided by 2 and the result is zero, the program output the loop of all number divided and divided till zero. But is the number is odd, the loop added one and kept diving till it is zero. 
+- tho get all output at the same line, searated with space, the function end=" " was used. 
 3: References - Course "python for beginners" at Cork Collee of Comerce (teacher Liam De La Cour) / https://www.freecodecamp.org/news/python-do-while-loop-example/#:~:text=What%20is%20a%20while%20loop%20in%20Python%3F&text=A%20while%20loop%20will%20run,check%20the%20condition%20before%20running.
 
 
@@ -42,14 +43,18 @@ Week 5
 1: Weekday.py
 2: Project Description
 - This project tells which day of the week is. 
-- I´ve done this project in one of my classes with teacher Liam. The code import the data from datetime and print which day is today. The outout changes if is weekday or weekend. 
-3: References -  Course "python for beginners" at Cork Collee of Comerce (teacher Liam De La Cour) 
+- I´ve done this project in one of my classes with teacher Liam. The code import the data from datetime and print which day is today. The output changes if is weekday or weekend using the function while.  
+3: References -  Course "python for beginners" at Cork Collee of Comerce (teacher Liam De La Cour)  https://www.datacamp.com/tutorial/python-datetime?utm_source=google&utm_medium=paid_search&utm_campaignid=19589720818&utm_adgroupid=143216588777&utm_device=c&utm_keyword=&utm_matchtype=&utm_network=g&utm_adpostion=&utm_creative=652967469589&utm_targetid=aud-392016246653:dsa-1947282172981&utm_loc_interest_ms=&utm_loc_physical_ms=1007835&utm_content=dsa~page~community-tuto&utm_campaign=230119_1-sea~dsa~tutorials_2-b2c_3-n-eu_4-prc_5-na_6-na_7-le_8-pdsh-go_9-na_10-na_11-na&gclid=Cj0KCQjwlumhBhClARIsABO6p-zQLj7JtqLP7jFprmlVOG7bHvKQ0Pqoyekno5eptxMmJOVufKXfR6MaAmSkEALw_wcB 
+https://www.programiz.com/python-programming/datetime    
+https://docs.python.org/3/library/datetime.html
+
 
 Week 6
-1: Project Title
+1: Squareroot.py
 2: Project Description
-- What the program/application is going does
-- Why you used certain codes (similar to the comments in the file - explain why you wrote it that way - shows you understand what code you used too)
+- This programm takes a positive floating-point number as input and outputs an approximation of its square root
+- 
+Why you used certain codes (similar to the comments in the file - explain why you wrote it that way - shows you understand what code you used too)
 - What was difficult and what you would like to add in the future.
 3: References - https://www.goeduhub.com/3398/python-program-to-find-the-square-root-number-newtons-method?utm_content=cmp-true /  https://www.angela1c.com/projects/problem_set_links/problem7/  
 
