@@ -7,3 +7,5 @@ with open("mytext.txt", "r") as file:
             count += 1
 
     print(count)
+
+

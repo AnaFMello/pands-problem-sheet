@@ -53,31 +53,35 @@ Week 6
 1: Squareroot.py
 2: Project Description
 - This programm takes a positive floating-point number as input and outputs an approximation of its square root
-- 
-Why you used certain codes (similar to the comments in the file - explain why you wrote it that way - shows you understand what code you used too)
-- What was difficult and what you would like to add in the future.
-3: References - https://www.goeduhub.com/3398/python-program-to-find-the-square-root-number-newtons-method?utm_content=cmp-true /  https://www.angela1c.com/projects/problem_set_links/problem7/  
+- This programm takes a number from the input and calculate its square root in a while function.
+- The Newton method starts with an initial guess for the square root, and then iteratively improve the guess until it's close enough to the actual value. So each iteration, a new guess is computed by taking the average of the previous guess and the quotient of x divided by the previous guess. 
+3: References - Course "python for beginners" at Cork Collee of Comerce (teacher Liam De La Cour)
+https://www.goeduhub.com/3398/python-program-to-find-the-square-root-number-newtons-method?utm_content=cmp-true /  https://www.angela1c.com/projects/problem_set_links/problem7/  
 
 
 Week 7
-1: Project Title
+1: es.py
 2: Project Description
-- What the program/application is going does
-- Why you used certain codes (similar to the comments in the file - explain why you wrote it that way - shows you understand what code you used too)
-- What was difficult and what you would like to add in the future.
-3: Table of Contents (only if its very long code - eg: End of Semester Project)
-4: How to Run or Install the code - we dont need this probably until later
-5: How to use the code - Screenshots of the program running eg: picture of the code and what it results in
-6: References - any links from what you found when googling for help with code or when looking to see how things are coded. - Even qualified programmers/data analysts google a lot, and were not being told how to do everything because they're trying to teach us how to research as well.
+- This program reads in a text file and outputs the number of e's it contains.
+- To do it, I created an text file "mytext". 
+- The program opens this file and reads it. I created a count which start in 0, but using the loop and while function, each time the program reads the letter e in the tex, it adds 1 to the counter. It output the total of the couter. 
+3: References - Course "python for beginners" at Cork Collee of Comerce (teacher Liam De La Cour)
+https://www.pythontutorial.net/python-basics/python-read-text-file/
+https://www.w3schools.com/python/python_file_open.asp
+
 
 
 Week 8
-1: Project Title
+1: Plottask.py
 2: Project Description
-- What the program/application is going does
-- Why you used certain codes (similar to the comments in the file - explain why you wrote it that way - shows you understand what code you used too)
-- What was difficult and what you would like to add in the future.
-3: Table of Contents (only if its very long code - eg: End of Semester Project)
-4: How to Run or Install the code - we dont need this probably until later
-5: How to use the code - Screenshots of the program running eg: picture of the code and what it results in
-6: References - any links from what you found when googling for help with code or when looking to see how things are coded. - Even qualified programmers/data analysts google a lot, and were not being told how to do everything because they're trying to teach us how to research as well.
+- This program generates a histogram of 1000 values from a normal distribution with a mean of 5 and a standard deviation of 2, and a plot of the function h(x) = x^3 in the range [0, 10]. 
+-To do it, first I had to import the numpy and matplotlib.pyplot to generate data and the plot. Then the numpy.random.normal() function is used to generate 1000 values and distribute with a mean of 5 and standard deviation of 2, and stores them in an array called values.
+- The histogram is created with the data of the values array using the matplotlib.pyplot.hist() function, which shows the distribution of the data. 
+- The program sets the title labels using the matplotlib.pyplot.title(), matplotlib.pyplot.xlabel(), and matplotlib.pyplot.ylabel() functions.
+- The program displays the histogram and plot on the same set of axes using the matplotlib.pyplot.show() function.
+- This progrmm was hard to myself and I had to do a lot of research and ask few friends for a help, I[m glad it worked out
+6: References - https://matplotlib.org/stable/plot_types/index
+https://www.w3schools.com/python/matplotlib_pyplot.asp
+https://www.oreilly.com/library/view/python-data-science/9781491912126/ch04.html
+https://rpubs.com/nishantsbi/Probability_Distribution
+https://www.mathworks.com/help/stats/normal-distribution.html
